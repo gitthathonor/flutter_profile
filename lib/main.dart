@@ -47,8 +47,12 @@ class ProfilePage extends StatelessWidget {
 
   AppBar _buildProfileAppBar() {
     return AppBar(
+      backgroundColor: Colors.white,
       leading: Icon(Icons.arrow_back_ios),
-      title: Text("Profile"),
+      title: Text(
+        "Profile",
+        style: TextStyle(color: Colors.black),
+      ),
       centerTitle: true,
     );
   }

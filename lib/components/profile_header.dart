@@ -26,6 +26,29 @@ class ProfileHeader extends StatelessWidget {
   }
 
   Widget _buildHeaderProfile() {
-    return SizedBox();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          "Gitthathonor",
+          style: TextStyle(
+            fontSize: 25,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        Text(
+          "프로그래머/작가/강사",
+          style: TextStyle(
+            fontSize: 20,
+          ),
+        ),
+        Text(
+          "Gitthathonor",
+          style: TextStyle(
+            fontSize: 15,
+          ),
+        ),
+      ],
+    );
   }
 }
